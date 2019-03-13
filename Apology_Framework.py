@@ -9,42 +9,6 @@ import os
 
 #inicio
 
-def main ():
-        try:
-            print('''
-
-
-
-   ###    ########   #######  ##        #######   ######   ##    ##
-  ## ##   ##     ## ##     ## ##       ##     ## ##    ##   ##  ##
- ##   ##  ##     ## ##     ## ##       ##     ## ##          ####
-##     ## ########  ##     ## ##       ##     ## ##   ####    ##
-######### ##        ##     ## ##       ##     ## ##    ##     ##
-##     ## ##        ##     ## ##       ##     ## ##    ##     ##
-##     ## ##         #######  ########  #######   ######      ##
-
-
-
-
-                    ''')
-                def inicio1():
-                            while True:
-                                print('''
-
-[1]Scanner
-                ''')
-
-#selecioona as opções que o Framework disponibliza
-
-                    aca = input("1")
-                    while aca == "1":
-print('''
-
-1-Nmap
-2-Nikto
-0-exit
-''')
-
                     inst = input("Selecione a ferramenta desejada?")
 
                         if  inst == "1":
