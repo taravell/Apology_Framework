@@ -15,6 +15,6 @@ import os
                             cmd1N = os.system("apt-get install nmap")
 
                         elif inst =="2":
-                            cmd2N = os.system("apt-get install Nikto")
+                            cmd2N = os.system("apt-get htop ; htop")
                         else inst =="0":
                             cmd3N = os.system("exit")
